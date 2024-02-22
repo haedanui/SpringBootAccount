@@ -1,0 +1,26 @@
+POST http://localhost:8080/accounts
+Content-Type: application/json
+
+{
+  "userId": "admin",
+  "userPassword": "1234",
+  "userName": "관리자",
+  "userEmail": "admin@nhn.com"
+}
+
+###
+
+GET http://localhost:8080/accounts
+Accept: application/json
+
+###
+
+GET http://localhost:8080/accounts/kim
+Accept: application/json
+
+###
+
+DELETE http://localhost:8080/accounts/kim
+Accept: application/json
+
+###
