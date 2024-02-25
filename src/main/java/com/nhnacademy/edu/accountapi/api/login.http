@@ -1,9 +1,9 @@
-POST http://localhost:8080/login
+POST http://localhost:9800/login
 Content-Type: application/json
 
 {
   "userId": "admin",
-  "userPassword": "123"
+  "userPassword": "1234"
 }
 
 ###

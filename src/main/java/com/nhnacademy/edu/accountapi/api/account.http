@@ -1,4 +1,4 @@
-POST http://localhost:8080/accounts
+POST http://localhost:9800/accounts
 Content-Type: application/json
 
 {
@@ -10,17 +10,17 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:8080/accounts
+GET http://localhost:9800/accounts
 Accept: application/json
 
 ###
 
-GET http://localhost:8080/accounts/kim
+GET http://localhost:9800/accounts/admin
 Accept: application/json
 
 ###
 
-DELETE http://localhost:8080/accounts/kim
+DELETE http://localhost:9800/accounts/admin
 Accept: application/json
 
 ###
